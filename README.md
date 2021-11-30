@@ -15,3 +15,4 @@ Progress pembelajaran javascript
 * Mempelajari IF/ELSE pada javascript.
 * Apa itu Truthy dan Falsy.  
 * Mempelajari penggunaan switch case seperti if else tapi lebih ringkas
+* Mempelajari perulangan dengan for loop, for of loop, while, do while, dan infinity loop.

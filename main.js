@@ -295,5 +295,70 @@ console.log(greeting);
 Bonjour!
 */
 
+// -------------------------------- JavaScript Loop --------------------------------------------
+// Merupakan sebuah perulangan perintah pada javascript
 
+// pada javascript menggunakan for loop untuk perulangan
+// for(inisialisasi variabel; test kondisi; perubahan nilai variabel) {
+//     // do something
+// }
+// contoh
+for(let i = 0; i < 5; i++) {
+    console.log(i);
+}
 
+/* output
+0
+1
+2
+3
+4
+*/
+
+// for of loop
+for(arrayItem of myArray) {
+    // do something
+}
+
+// contoh
+let myArray = ["Luke", "Han", "Chewbacca", "Leia"];
+
+for(const arrayItem of myArray) {
+    console.log(arrayItem)
+}
+
+/* output
+Luke
+Han
+Chewbacca
+Leia
+*/
+
+// while and do while menjalankan statement apabila nilai benar atau true
+// contoh
+// while
+let i = 1;
+
+while (i <= 100) {
+    console.log(i);
+    i++;
+}
+// sedangkan do while seperti
+let i = 1;
+
+do {
+    console.log(i);
+    i++;
+} while (i <= 100);
+
+// infinite loop merupakan kondisi ketika suatu perulangan stuck disitu saja, seperti
+// pada while
+let i = 1;
+ 
+while (i <= 5) {
+    console.log(i);
+}
+// pada for
+for(let i = 1; i <= 5; i=1) {
+    console.log(i);
+}
