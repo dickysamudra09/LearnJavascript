@@ -6,3 +6,5 @@
 --- (//) untuk melakukan comment satu baris saja.
 
 --- (/* ..... */) untuk melakukan comment yang ada awalan dan akhiran.
+
+--- tipe data
