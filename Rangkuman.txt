@@ -2,3 +2,7 @@
 -- Expression merupakan kode yang menghasilkan nilai.
 
 -- Statement menunjukkan aksi yang dilakukan.
+
+--- (//) untuk melakukan comment satu baris saja.
+
+--- (/* ..... */) untuk melakukan comment yang ada awalan dan akhiran.

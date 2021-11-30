@@ -15,3 +15,14 @@ var yourName;
 let yourAge;
 
 const numberOfDays; //
+
+// ini adalah penggunaan (//) comment untuk menutup sebuah code perintah 
+    // console.log()
+
+// ini adalah penggunaan comment yang sama dengan (//) tapi adalah awalan dan akhiran menggunakan (/* ......   */)
+    /* Ini merupakan komentar dengan lebih dari satu baris
+    Teks apapun yang berada disini akan dijadikan komentar.
+    Ketika menggunakan ini, jangan lupa untuk menutupnya.
+    */
+
+
