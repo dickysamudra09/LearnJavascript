@@ -11,4 +11,6 @@ Progress pembelajaran javascript
 * Mempelajari macam macam tipe data seprti undifined, numbers, increment dan decrement, String, boolean, BigInt, symbol, dan null.
 
 ## 1 December 2021
-* Mempelajari apa itu operator, operator perbandingan, dan operator logika
+* Mempelajari apa itu operator, operator perbandingan, dan operator logika.
+* Mempelajari IF/ELSE pada javascript.
+* Apa itu Truthy dan Falsy.  

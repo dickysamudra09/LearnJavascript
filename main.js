@@ -234,3 +234,28 @@ false
 false
 */
 
+// -------------------------------- JavaScript IF/ELSE Statement --------------------------------------------
+// merupakan kata kunci untuk mengecek sebuah kondisi dengan bercabang
+// contoh
+const isRaining = true;
+
+console.log("Persiapan sebelum berangkat kegiatan.");
+if (isRaining) {
+    console.log("Hari ini hujan. Bawa payung.");
+}
+console.log("Berangkat kegiatan.");
+
+/* output:
+Persiapan sebelum berangkat kegiatan.
+Hari ini hujan. Bawa payung.
+Berangkat kegiatan.
+ */
+
+// ternary operator kode perintah if/else dalam 1 baris lurus, seperti
+const isMember = false;
+const discount = isMember ? 0.1 : 0;
+// sebelum tanda (?) merupakan kondisi yang ingin kita evaluasi. kemudia diikuti dengan expression apabila benar dan setelah : merupakan expression apabila salah
+
+// Truthy & falsy merupakan nilai yang apabila nilai ketika dievaluasi akan menghasilkan true disebut truthy dan nilai ketika dievaluasi menghasilkan false disebut falsy
+
+
