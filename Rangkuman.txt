@@ -1,0 +1,4 @@
+
+-- Expression merupakan kode yang menghasilkan nilai.
+
+-- Statement menunjukkan aksi yang dilakukan.
