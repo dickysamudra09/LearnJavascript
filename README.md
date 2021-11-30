@@ -8,3 +8,4 @@ Progress pembelajaran javascript
 * Cara membuat comment pada barisan perintah javascript.
 * Mempelajari macam macam variable javascript seperti let, var, dan const.
 * Mempelajari inisiasi nilai ke dalam variable javascript.
+* Mempelajari macam macam tipe data seprti undifined, numbers, increment dan decrement, String, boolean, BigInt, symbol, dan null.
