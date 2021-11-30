@@ -14,3 +14,4 @@ Progress pembelajaran javascript
 * Mempelajari apa itu operator, operator perbandingan, dan operator logika.
 * Mempelajari IF/ELSE pada javascript.
 * Apa itu Truthy dan Falsy.  
+* Mempelajari penggunaan switch case seperti if else tapi lebih ringkas

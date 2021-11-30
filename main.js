@@ -258,4 +258,42 @@ const discount = isMember ? 0.1 : 0;
 
 // Truthy & falsy merupakan nilai yang apabila nilai ketika dievaluasi akan menghasilkan true disebut truthy dan nilai ketika dievaluasi menghasilkan false disebut falsy
 
+// -------------------------------- JavaScript Switch Case --------------------------------------------
+// Merupakan percabangan seperti if else tapi dalam rangka yang ringkas den pendek
+switch (expression) {
+    case value1:
+      // do something
+      break;
+    case value2:
+      // do something
+      break;
+    
+    default:
+      // do something else
+}
+// contoh
+let language = "French";
+let greeting = null;
+
+switch (language) {
+    case "English":
+        greeting = "Good Morning!";
+        break;
+    case "French":
+        greeting = "Bonjour!";
+        break;
+    case "Japanese":
+        greeting = "Ohayou Gozaimasu!";
+        break;
+    default:
+        greeting = "Selamat Pagi!";
+}
+
+console.log(greeting);
+
+/* output
+Bonjour!
+*/
+
+
 
