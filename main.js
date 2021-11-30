@@ -167,5 +167,70 @@ console.log(id);
 Symbol(id)
 */
 
+// -------------------------------- JavaScript Operator --------------------------------------------
+// merupakan simbol yang memberi tahu untuk melakukan operasi atau interpreter, contoh
+x = y // ekpression menginisiasi nilai y ke variable y, sehingga nilai x berisi sama dengan nilai y
 
+let x = 10;
+let y = 5
+
+x += y;
+
+console.log(x);
+
+/* output
+15
+*/
+
+// maksud x += y seperti perumpamaan x + y
+
+// Comparasion operator adalah operator perbandingan 2 nilai
+// == membandingkan kedua nilai apakah sama
+// != membandingkan kedua nilai apakah tidak sama
+// === membandingkan apakah kedua nilai identik
+// !=== membandingkan apakah kedua nilai tidak identik
+// > membandingkan apakah nilai pertama besar dengan kedua
+// >= membandingkan apakah nilai pertama lebih besar dan sama dari kedua
+// < membandingkan apakah nilai pertama kecil dari kedua
+// <= membandingkan apakah nilai pertama lebih kecil dan sama dari kedau
+// contoh
+let a = 10;
+let b = 12;
+
+console.log(a < b);
+console.log(a > b);
+
+/* output
+true
+false
+*/
+
+// Logika operator merupakan operator untuk menetapkan logika yang lebih kompleks
+// && operator yang menghasilkan nilai true apabila kedua pernyataan terpenuhi
+// || operator yang menghasilkan nilai true apabila salah satu pernyataan terpenuhi 
+// ! Operator untuk membalikkan suatu kondisi.
+// contoh
+let a = 10;
+let b = 12;
+
+/* AND operator */
+console.log(a < 15 && b > 10); // (true && true) -> true
+console.log(a > 15 && b > 10); // (false && true) -> false
+
+/* OR operator */
+console.log(a < 15 || b > 10); // (true || true) -> true
+console.log(a > 15 || b > 10); // (false || true) -> true
+
+/* NOT operator */
+console.log(!(a < 15)); // !(true) -> false
+console.log(!(a < 15 && b > 10)); // !(true && true) -> !(true) -> false
+
+/* output
+true
+false
+true
+true
+false
+false
+*/
 
